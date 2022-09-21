@@ -102,9 +102,3 @@ variable "aws_cloudwatch_alarm_up_threshold" {
   default = "10"
 }
 
-#variable "aws_cloudwatch_alarm_up_alarm_actions" {
-#  type    = list(string)
-#  default = ["${aws_autoscaling_policy.aws_grp_policy.arn}"]
-#}
-
-
