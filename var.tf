@@ -16,7 +16,7 @@ variable "aws_autoscale_conf_key_name" {
 
 variable "autoscale_grp_zone" {
   type    = list(string)
-  default = ["us-east-1a","us-east-1b"]
+  default = ["us-east-1a", "us-east-1b"]
 }
 
 variable "autoscale_grp_max_size" {
